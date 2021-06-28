@@ -1,0 +1,5 @@
+info: Jun-28-2021 11:35:45: 	Server started and running on http://localhost:3000
+info: Jun-28-2021 11:37:00: 	Server Sent A Hello World!
+error: Jun-28-2021 11:37:00: 	400 || Not Found - /favicon.ico - GET - ::1
+error: Jun-28-2021 11:38:11: 	400 || Not Found - /calc' - GET - ::1
+error: Jun-28-2021 11:38:15: 	500 - Internal Server Error - y is not defined - /calc - GET - ::1
