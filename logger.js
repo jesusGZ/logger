@@ -1,21 +1,24 @@
 const winston = require('winston');
-
 const logConfiguration = {
-    'transports': [
-        new winston.transports.Console()
+    transports: [
+        new winston.transports.Console({
+            level: 'warn'
+        }),
+        new winston.transports.File({
+            level: 'error',
+            // Create the log directory if it does not exist
+            filename: 'logs/example.log'
+        })
     ]
 };
 
 const logger = winston.createLogger(logConfiguration);
 
-// Log a message
-logger.log({
-    // Message to be logged
-        message: 'Hello, Winston!',
-    
-    // Level of the message logging
-        level: 'info'
-    });
-    // Log a message
-    logger.info('Hello, Winston!');
-    
+// Log some messages
+logger.error("Hello, Winston logger, the first error!");
+logger.warn("Hello, Winston logger, the first warning!");
+logger.warn("Hello, Winston logger, the second warning!");
+logger.error("Hello, Winston logger, the second error!");
+logger.info("Hello, Winston logger, some info!");
+logger.debug("Hello, Winston logger, a debug!");
+
