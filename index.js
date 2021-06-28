@@ -1,10 +1,11 @@
 const express = require('express');
-
+//variables de entorno
+const config = require("./model/constans/config");
 // Require logger.js
 const logger = require('./utils/logger');
 const app = express();
-const port = 3000;
-const host = "localhost";
+const port = config.port1;
+const host = config.host;
 
 // Dummy Express GET call
 app.get('/',(req,res) => {

@@ -3,3 +3,19 @@ info: Jun-28-2021 11:37:00: 	Server Sent A Hello World!
 error: Jun-28-2021 11:37:00: 	400 || Not Found - /favicon.ico - GET - ::1
 error: Jun-28-2021 11:38:11: 	400 || Not Found - /calc' - GET - ::1
 error: Jun-28-2021 11:38:15: 	500 - Internal Server Error - y is not defined - /calc - GET - ::1
+info: Jun-28-2021 11:47:00: 	Server started and running on http://localhost:3000
+info: Jun-28-2021 11:48:23: 	Server started and running on http://localhost:3000
+info: Jun-28-2021 11:48:40: 	Server started and running on http://localhost:3000
+info: Jun-28-2021 11:51:41: 	Server started and running on http://localhost:3000
+info: Jun-28-2021 11:52:24: 	Server started and running on http://localhost:3000
+info: Jun-28-2021 11:56:46: 	Server started and running on http://localhost:3000
+info: Jun-28-2021 11:57:39: 	Server started and running on http://localhost:3000
+info: Jun-28-2021 11:59:27: 	Server started and running on http://localhost:3000
+info: Jun-28-2021 12:00:06: 	Server started and running on http://localhost:3000
+info: Jun-28-2021 12:00:22: 	Server started and running on http://localhost:3000
+info: Jun-28-2021 12:01:01: 	Server started and running on http://localhost:3000
+info: Jun-28-2021 12:01:12: 	Server Sent A Hello World!
+error: Jun-28-2021 12:01:41: 	500 - Internal Server Error - y is not defined - /calc - GET - ::1
+error: Jun-28-2021 12:01:51: 	400 || Not Found - /hellow - GET - ::1
+error: Jun-28-2021 12:01:57: 	400 || Not Found - /hola - GET - ::1
+error: Jun-28-2021 12:03:10: 	500 - Internal Server Error - y is not defined - /calc - GET - ::1
