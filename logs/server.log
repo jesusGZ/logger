@@ -19,3 +19,6 @@ error: Jun-28-2021 12:01:41: 	500 - Internal Server Error - y is not defined - /
 error: Jun-28-2021 12:01:51: 	400 || Not Found - /hellow - GET - ::1
 error: Jun-28-2021 12:01:57: 	400 || Not Found - /hola - GET - ::1
 error: Jun-28-2021 12:03:10: 	500 - Internal Server Error - y is not defined - /calc - GET - ::1
+info: Jun-28-2021 12:18:25: 	Server started and running on http://localhost:16022
+info: Jun-28-2021 12:18:35: 	Server Sent A Hello World!
+error: Jun-28-2021 12:18:35: 	400 || Not Found - /favicon.ico - GET - ::1
